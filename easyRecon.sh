@@ -1,5 +1,7 @@
 #!/bin/bash
 
+domain=$1
+
 echo "   
           ======  ======   ========  \       /
 	  |      |      |        /    \     /
@@ -12,7 +14,11 @@ echo "
                                         by @cspshivam
                                         https://www.cspshivam.com
                                                       	  "
-domain=$1
+if [[ -z $domain ]]; then
+	echo -e "Usage: ./easyRecon.sh <domain.com>"
+	exit 1
+fi
+
 echo "[-] EasyRecon will gather the following information for you
       [+] All existing domains of $domain
       [+] All Live domains of $domain

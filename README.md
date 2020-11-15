@@ -13,7 +13,15 @@ EasyRecon is a script that do the initial reconnaissance of target automatically
  
  please make sure that as most of these tools are written in Go, that you have Go installed and configured properly. Make sure that when you type any of the above commands in the terminal, they are recognized and work.
  
- # Usage
+# Installation
+```console
+$ git clone https://github.com/cspshivam/easyrecon.git
+$ cd easyrecon
+$ chmod +x easyRecon.sh
+$ ./easyRecon.sh
+```
+
+# Usage
  ```console
 $ ./easyRecon.sh example.com
 ```

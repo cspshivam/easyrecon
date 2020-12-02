@@ -2,7 +2,7 @@
  
 ![alt text](https://github.com/cspshivam/easyrecon/blob/main/easy.JPG "easyrecon")
 
-# EasyRecon is a script that do the initial reconnaissance of target automatically. To scan Google, simply run $ ./easyRecon.sh google.com
+ EasyRecon is a script that do the initial reconnaissance of target automatically. To scan Google, simply run $ ./easyRecon.sh google.com
 
 
 # Setup
@@ -32,5 +32,5 @@ $ ./easyRecon.sh example.com
 * Spider the target and save all the URLS of target using waybackurls
 * grep all the js files and endpoints from the target
 
-# EasyRecon Working
+# EasyRecon Working POC
 ![alt text](https://github.com/cspshivam/easyrecon/blob/main/.working-pic-easyrecon.png "easyrecon-working")

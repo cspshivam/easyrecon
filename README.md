@@ -1,6 +1,6 @@
 # EasyRecon
  
-![alt text](https://github.com/cspshivam/easyrecon/blob/main/easy.JPG "easyrecon")
+![alt text](https://github.com/cspshivam/easyrecon/blob/main/.banner-easyrecon.png "easyrecon-banner")
 
  EasyRecon is a script that do the initial reconnaissance of target automatically. To scan Google, simply run $ ./easyRecon.sh google.com
 

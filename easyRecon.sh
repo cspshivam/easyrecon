@@ -10,7 +10,7 @@ echo -e "\e[96m
 	  ======           =========  /
          
                                         by @cspshivam
-                                        https://www.cspshivam.com
+                                        https://www.cspshivam.tk
                                                       	\e[0m"
 domain=$1
 if [[ -z $domain ]]; then
